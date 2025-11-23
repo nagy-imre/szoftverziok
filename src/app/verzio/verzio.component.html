@@ -1,11 +1,20 @@
-<p> verzio works! </p>
-
 <table>
-    <thead>
-        <th>Verzió</th>
-        <th>Dátum</th>
-        <th>Csapat</th>
-        <th>Hibák</th>
-        <th>Új funkciók</th>
-    </thead>
+  <thead>
+    <tr>
+      <th>Verzió</th>
+      <th>Dátum</th>
+      <th>Csapat</th>
+      <th>Hibák</th>
+      <th>Új funkciók</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let v of szoftverVerziok">
+      <td>{{ v.verzio }}</td>
+      <td>{{ v.datum }}</td>
+      <td>{{ v.csapat }}</td>
+      <td>{{ v.hibak }}</td>
+      <td>{{ v.ujFunkciok }}</td>
+    </tr>
+  </tbody>
 </table>
