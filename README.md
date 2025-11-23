@@ -1,3 +1,5 @@
+https://szit.hu/doku.php?id=oktatas:web:feladatok:kliens#feladat_0111
+
 # Szoftverziok
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
