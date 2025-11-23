@@ -19,4 +19,10 @@ export class VerzioComponent {
     { verzio: '2.2.0', datum: '2024-01-15', csapat: 'Gamma', hibak: 4, ujFunkciok: 1 },
     { verzio: '2.1.5', datum: '2023-11-05', csapat: 'Alpha', hibak: 10, ujFunkciok: 0 }
   ];
+
+  osszesHiba = 0;
+
+  ngOnInit() {
+    this.osszesHiba = this.szoftverVerziok.reduce((sum, verzio) => sum + verzio.hibak, 0);
+  }
 }
