@@ -1,10 +1,20 @@
+/*
+* File: verzio.component.ts
+* Author: Nagy Imre
+* Copyright: 2025, Nagy Imre
+* Group: Szoft II-E
+* Date: 2025-11-23
+* Github: https://github.com/nagy-imre
+* Licenc: MIT
+*/
+
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-verzio',
-  standalone: true,       // ⚡ standalone komponens
-  imports: [CommonModule], // kell az *ngFor-hoz
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './verzio.component.html',
   styleUrls: ['./verzio.component.css']
 })
