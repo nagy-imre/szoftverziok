@@ -15,6 +15,7 @@
       <td>{{ v.csapat }}</td>
       <td>{{ v.hibak }}</td>
       <td>{{ v.ujFunkciok }}</td>
+      <span *ngIf="v.hibak > v.ujFunkciok">⚠️</span>
     </tr>
   </tbody>
 </table>
